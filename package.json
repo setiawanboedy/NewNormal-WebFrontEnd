@@ -1,0 +1,40 @@
+{
+    "name": "new-normal",
+    "version": "1.0.0",
+    "description": "Fortfolio and Fundamental Font-End Web Development",
+    "main": "app.js",
+    "scripts": {
+        "start-dev": "webpack-dev-server --config webpack.dev.js --open",
+        "build": "webpack --config webpack.prod.js"
+    },
+    "keywords": [
+        "html",
+        "css",
+        "javascript",
+        "custom-element",
+        "npm",
+        "webpack"
+    ],
+    "author": "Budi Setiawan (gonisetiawan0@gmail.com)",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.11.1",
+        "@babel/preset-env": "^7.11.0",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^3.6.0",
+        "file-loader": "^6.0.0",
+        "html-loader": "^1.1.0",
+        "html-webpack-plugin": "^4.3.0",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0",
+        "webpack-merge": "^4.2.2"
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "jquery": "^3.5.1",
+        "moment": "^2.24.0",
+        "regenerator-runtime": "^0.13.5"
+    }
+}

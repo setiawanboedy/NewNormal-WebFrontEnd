@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+body{
+    background-image: url(../image/bg-landing.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50rem;
+    background-position: 0 10px;
+    background-position-x: center;
+    background-position-y: 0rem;
+    display: inline;
+    position: relative;
+}
+
+/* Banner Area */ 
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+/* End Banner Area */ 
+
+/* Corona Track */
+.site-main .services-area{
+    padding: 2rem 2rem 0rem;
+    justify-content: center;
+}
+.site-main .bg-count .ring-1{
+    background-image: url(../image/ring1.png);
+    background-repeat: no-repeat;
+    background-size: 1 100px;
+
+}
+.site-main .bg-count .ring-2{
+    background-image: url(../image/ring2.png);
+    background-repeat: no-repeat;
+    background-size: 1 100px;
+    background-position-x: right;
+    background-position-y: bottom;
+
+}
+
+.site-main .margin-area{
+    margin-top: 5rem;
+}
+.site-main .margin-count{
+    margin-bottom: 4rem;
+}
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 1rem 0;
+    width: 14rem;
+    margin: 3rem .3rem;
+    transition: box-shadow .7s ease;
+}
+
+.services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+.services-area .services .font{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 60px;
+}
+.services-area .services .color-red{
+    color: #DB1414;
+}
+.services-area .services .color-green{
+    color: #30AF1C;
+}
+.services-area .services .color-blue{
+    color: #2669B8;
+}
+.services-area .color-blue{
+    color: #2669B8;
+}
+.services-area p{
+    padding-bottom: 1rem;
+}
+/* End Corona Track */
+
+/* Start About Area */ 
+
+.site-main .about-area{
+    margin-top: 6rem;
+}
+.bg-main{
+    background-image: url(../image/bg-artikel.png);
+    background-repeat: no-repeat;
+    background-size: 100% 38rem;
+    background-position: 0 1020px;
+}
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+/* tips area */
+.site-main .tips-area{
+    margin-top: 4rem;
+}
+.site-main .tips-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .tips-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+/* End Tips Area */
+/* ================================================= */
+#category-list,
+#filter-list {
+    display: flex;
+    overflow-x: auto;
+}
+
+.filter-item {
+    padding: 10px 20px;
+}
+
+.filter-item:hover {
+    cursor: pointer;
+}
+
+.filter-item.active {
+    color: #2196f3;
+    font-weight: 700;
+    border-bottom: 4px solid #2196f3;
+}
+
+.category-item {
+    padding: 10px 10px;
+}
+
+.category-item .card-news {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 140px;
+    border-radius: 12px;
+    transition: box-shadow 300ms, transform 300ms;
+}
+
+.category-item .card-news:hover {
+    cursor: pointer;
+    transform: translateY(-4px);
+}
+
+.category-item .card-news .icon {
+    width: 36px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* MAIN */
+.site-main .main-news{
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 30px;
+}
+
+.section-heading {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* ASIDE */
+aside .section-heading {
+    display: block;
+}
+
+/* CONTENT */
+article {
+    margin-bottom: 30px;
+}
+
+/* NEWS LIST */
+news-list {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 30px;
+
+}
+
+
+@media screen and (min-width: 992px) {
+
+    /* MAIN */
+    main {
+        padding: 3.33rem 6rem;
+        grid-template-columns: 20% 80%;
+    }
+
+    /* ASIDE */
+    aside .section-heading,
+    #filter-list {
+        display: flex;
+    }
+
+    aside .card-news {
+        padding-top: 40px;
+        background-color: white;
+        border-radius: 12px;
+
+    }
+
+    /* NEWS LIST */
+    news-list {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+
+}
+/* Subscribe me */ 
+.site-main .subscribe-us-area .subscribe{
+    background-image: url(../image/subrek.png);
+    background-repeat: no-repeat;
+    background-size: 70% 20rem;
+    background-position: 0 130px;
+    background-position-x: center;
+    padding: 10rem 0 2rem;
+}
+.site-main .subscribe-us-area .subscribe-image{
+    width: 253px;
+    height: 178px;
+    margin-left: 45%;
+}
+.site-main .subscribe-us-area .subscribe-text{
+    width: 40%;
+    margin-left: 40%;
+}
+.site-main .subscribe-us-area .subscribe h2{
+    font: normal 700 20px/ 30px var(--roboto);
+    color: whitesmoke;
+    margin-bottom: 2rem;
+}
+
+.site-main .subscribe-us-area .subscribe .input-textbox{
+    width: 70%;
+    border: 1px solid whitesmoke;
+   
+    background: transparent;
+    color: white;
+    font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main .subscribe-us-area .subscribe form .input-textbox input::placeholder{
+    color: whitesmoke;
+}
+
+.site-main .subscribe-us-area button{
+    background: #F06262;
+    color: whitesmoke;
+    position: relative;
+    top: 4.8rem;
+    right: 8rem;
+    height: 43px;
+}
+
+/* End subscribe me */ 
+/* ==footer===*/
+
+footer{
+    background-image: url(../image/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 37rem;
+    background-position-y: bottom;
+}
+
+footer .row{
+    opacity: 0.6;
+    text-align: center;
+
+}
+footer h2{
+    padding: 8rem 4rem 4rem;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.row li{
+    list-style: none;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+footer .row ul li input{
+    font-style: normal;
+    /* identical to box height */
+    padding: 10px;
+    color: whitesmoke;
+    width: 402px;
+    height: 59px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: black;
+}
+
+footer textarea{
+    font-style: normal;
+    /* identical to box height */
+    padding: 10px;
+    color: whitesmoke;
+    width: 808px;
+    height: 237px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 2px;
+    color: black;
+  
+}
+
+/* End Footer */ 
+
+/* copyright */
+.copyright{
+    text-align: center;
+    padding-top: 3rem;
+    color: white;
+}
+
+@media only screen and (max-width: 1910px){
+    .site-main .subscribe-us-area .subscribe-image{
+        padding-top: 1rem;
+        width: 203px;
+    }
+    .site-main .subscribe-us-area button{
+        position: relative;
+        top: 6.7rem;
+
+    }
+}
+@media only screen and (max-width: 792px){
+    .site-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+    .site-main .subscribe-us-area .subscribe{
+        background-size: 100% 20rem;
+    }
+    .site-main .subscribe-us-area .row{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .site-main .subscribe-us-area img{
+        position: relative;
+        right: 5rem;
+    }
+    .site-main .subscribe-us-area .right-img h2{
+        padding-left: 15%;
+    }
+    .site-main .subscribe-us-area .subscribe .input-textbox{
+        width: 70%;
+        position: relative;
+        left: 3rem;
+        justify-content: center;
+        border: 1px solid whitesmoke;
+       
+        background: transparent;
+        color: white;
+        font: normal 500 17px/20px var(--roboto);
+    }
+    
+    .site-main .subscribe-us-area button{
+        position: relative;
+        top: .5rem;
+        width: 50%;
+        right: 0rem;
+        left: 4rem;
+    }
+    footer h2{
+        padding-top: 8rem;
+        font-size: 100%;
+    }
+    footer textarea{
+        width: 100%;
+        
+    }
+    footer .row ul li input{
+        width: 100%;
+        flex-direction: row;
+        height: 49px;
+    }
+    @media only screen and (max-width: 340px){
+        .site-main .subscribe-us-area .subscribe form .input-textbox input{
+            width: 15rem    !important;
+        }
+    }
+
+}
