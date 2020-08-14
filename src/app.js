@@ -40,13 +40,3 @@ import main from "./script/view/main.js";
 document.addEventListener("DOMContentLoaded", navbarFixed);
 document.addEventListener("DOMContentLoaded", getDataIndonesia);
 document.addEventListener("DOMContentLoaded", main);
-
-var static = require('node-static');
-
-var fileServer = new static.Server('./dist');
-
-require('http').createServer(function (request, response) {
-    request.addListener('end', function () {
-        fileServer.serve(request, response);
-    }).resume();
-}).listen(8080);
