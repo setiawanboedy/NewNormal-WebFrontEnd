@@ -2,11 +2,11 @@
     "name": "new-normal",
     "version": "1.0.0",
     "description": "Fortfolio and Fundamental Font-End Web Development",
-    "main": "app.js",
+    "main": "index.js",
     "scripts": {
-        "start": "webpack-dev-server --config webpack.dev.js --open",
-        "build": "webpack --config webpack.prod.js",
-        "heroku-postbuild": "npm run build"
+        "start": "node index.js",
+        "heroku-postbuild": "webpack --config webpack.prod.js"
+      
     },
     "keywords": [
         "html",
@@ -34,6 +34,7 @@
     },
     "dependencies": {
         "bootstrap": "^4.5.2",
+        "express": "^4.17.1",
         "jquery": "^3.5.1",
         "moment": "^2.24.0",
         "node-static": "^0.7.11",
