@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Global Classes */ 
-
-html{
+html, main, body{
     font-family: var(--roboto);
     scroll-behavior: smooth;
+    width: 100%;
 }
 
 .title-text.h3-title{
@@ -123,4 +123,16 @@ button:hover
     box-shadow: var(--box-shadow);
     z-index: 999;
     transition: background 1s ease;
+}
+@media only screen and (max-width: 411px){
+    .navbar_fixed{
+        position: fixed;
+        width: 100%;
+        top: -1px;
+        left: 0; right: 0;
+        background: #ffffff;
+        box-shadow: var(--box-shadow);
+        z-index: 999;
+        transition: background 1s ease;
+    }
 }
