@@ -1,5 +1,5 @@
-# OnePage-WebFrontEnd-Developer
-Beautiful One Page Web Front End Developer
+# OnePage-WebFrontEnd-Development
+Beautiful One Page Web Front End Development
 
 <ul>
 <li>Using standard ES6 syntax in writing JavaScript code for the project.</li>
