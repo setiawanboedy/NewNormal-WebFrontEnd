@@ -29,6 +29,7 @@ const main = () => {
                     "headers": {
                         "x-rapidapi-key": "1a1f9af399mshae43678faad5827p1c3a42jsn8708664804e8",
                         "x-rapidapi-host": "coronavirus-smartable.p.rapidapi.com"
+
                     },
                 }
             );

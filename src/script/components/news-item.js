@@ -68,7 +68,11 @@ class NewsItem extends HTMLElement {
             </style>
             
             <a href="${this._news.webUrl}" target="_blank">
+<<<<<<< HEAD
                 <img src="${this._news.images ? this._news.images[0].url : "src/image/blank-image.jpg"}"/>
+=======
+                <img src="${this._news.images ? this._news.images[0].url : " "}"/>
+>>>>>>> 6e467dd3d7573a2cb34ce2d301bf608f010523bf
                 <div class="content">
                     <p class="title">
                         ${this._news.title}
