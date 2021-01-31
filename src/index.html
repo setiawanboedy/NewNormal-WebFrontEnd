@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>New Normal</title>
+        <link rel="shortcut icon" href="./image/icon.png" type="image/x-icon">
+    </head>
+    <body>
+        <header class="header_area">
+            <div class="main-menu" >
+            <nav-bar></nav-bar>
+            </div>
+        </header>
+        <main class="site-main bg-main">
+            <landing-section id="home"></landing-section>
+            <corona-section id="track"></corona-section>
+            <article-section id="article"></article-section>
+            <tips-section id="tips"></tips-section>
+            
+            <section id="news" class="main-news">
+                <aside >
+                    <div class="card-news">
+                        <h2 class="text-uppercase py-5 h1-title">Top news highlight <br>Covid-19</h2>
+                        <div id="filter-list">
+                            <div class="filter-item active" data-value="global">
+                                Global
+                            </div>
+                            <div class="filter-item" data-value="CA">
+                                Canada
+                            </div>
+                            <div class="filter-item" data-value="FR">
+                                France
+                            </div>
+                            <div class="filter-item" data-value="US">
+                                America
+                            </div>
+                            <div class="filter-item" data-value="AU">
+                                Australia
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+                <div id="content">
+                    <article>
+                        <news-list></news-list>
+                    </article>
+                </div>
+            </section>
+
+            <subscribe-section></subscribe-section>
+        </main>
+        <footer >
+            <footer-section id="contact"></footer-section>
+        </footer>
+        
+    </body>
+</html>
