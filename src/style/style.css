@@ -44,7 +44,7 @@ body{
 
 /* Corona Track */
 .site-main .services-area{
-    padding: 2rem 2rem 0rem;
+    padding: 1rem 1rem 0rem;
     justify-content: center;
 }
 .site-main .bg-count .ring-1{
@@ -68,9 +68,7 @@ body{
 .site-main .margin-count{
     margin-bottom: 4rem;
 }
-.site-main .services-area .services-title{
-    padding: 0 14rem;
-}
+
 
 .services-area .services{
     background: rgba(248, 252, 253, 0.973);

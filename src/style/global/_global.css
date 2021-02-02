@@ -126,9 +126,9 @@ button:hover
 }
 @media only screen and (max-width: 411px){
     .navbar_fixed{
-        position: fixed;
         width: 100%;
-        top: -1px;
+        padding-top: 10px;
+        top: 0px;
         left: 0; right: 0;
         background: #ffffff;
         box-shadow: var(--box-shadow);

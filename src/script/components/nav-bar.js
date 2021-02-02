@@ -40,7 +40,6 @@ class NavBar extends HTMLElement {
             background-clip: text;
         }
         /* navbar regular css end */
-
         /* nav-toggler css start */
         .nav-toggler {
             border: 3px solid transparent;
@@ -77,7 +76,6 @@ class NavBar extends HTMLElement {
             transform: translateY(-3px) rotate(-45deg);
         }
         /* nav-toggler css start */
-
         /* mobile breakpoint start */
         @media screen and (max-width: 767px) {
             .navbar-area {
@@ -146,9 +144,6 @@ class NavBar extends HTMLElement {
       </nav>
     </div>
   </div>
-
-
-    
     `;
     }
 }
