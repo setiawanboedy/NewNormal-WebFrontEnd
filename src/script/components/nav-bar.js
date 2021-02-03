@@ -82,7 +82,7 @@ class NavBar extends HTMLElement {
                 background: white;
             }
             .container {
-                max-width: 100%;
+                max-width: 95%;
             }
             /* navbar css for mobile start */
             .nav-toggler{
@@ -108,7 +108,7 @@ class NavBar extends HTMLElement {
                 transition: .3s;
             }
             .site-navbar ul li {
-                width: 100%;
+                width: 90%;
                 text-align: center;
             }
             .site-navbar ul li a {

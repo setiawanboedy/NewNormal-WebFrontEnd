@@ -30,18 +30,18 @@ function navbarFixed() {
             navToggler.click();
         }
     }
-
-    let nav_offset_top = $('.header_area').height();
-
+    if ($('.header_area').length > 0) {
+    let nav_offset_top = 0;
         $(window).scroll(function () {
             let scroll = $(window).scrollTop();
-            if (scroll >= nav_offset_top) {
-                $('.header_area .main-menu').addClass('navbar_fixed');
+            if (scroll < nav_offset_top) {
+                $('.header_area .main-menu').removeClass('scrolled-down').addClass('scrolled-up');
             } else {
-                $('.header_area .main-menu').removeClass('navbar_fixed');
+                $('.header_area .main-menu').removeClass('scrolled-up').addClass('scrolled-down');
             }
-        })
-   
+            nav_offset_top = scroll;
+        });
+    }
     
 
 }

@@ -114,7 +114,7 @@ button:hover
 .title-h1{
     font: normal bold 39px/ 40px var(--roboto);
 }
-.navbar_fixed{
+.scrolled-up{
     position: fixed;
     width: 100%;
     top: -1px;
@@ -125,14 +125,17 @@ button:hover
     transition: background 1s ease;
 }
 @media only screen and (max-width: 411px){
-    .navbar_fixed{
-        width: 100%;
-        padding-top: 10px;
-        top: 0px;
-        left: 0; right: 0;
-        background: #ffffff;
-        box-shadow: var(--box-shadow);
-        z-index: 999;
-        transition: background 1s ease;
+    .scrolled-down{
+        transform:translateY(-100%); transition: all 0.3s ease-in-out;
     }
+
+    .scrolled-up{
+        position: fixed;
+        width: 100%;
+        top: -1px;
+        background: #ffffff;
+        /* box-shadow: var(--box-shadow); */
+        z-index: 999;
+        transform:translateY(0); transition: all 0.3s ease-in-out;
+     }
 }

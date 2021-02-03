@@ -23,11 +23,11 @@ const main = () => {
             }
 
             const result = await fetch(
-                `https://coronavirus-smartable.p.rapidapi.com/news/v1/${paramString}/`,
+                `https://coronavirus-smartable.p.rapidapi.com/nes/v1/${paramString}/`,
                 {
                     method: "GET",
                     "headers": {
-                        "x-rapidapi-key": "1a1f9af399mshae43678faad5827p1c3a42jsn8708664804e8",
+                        "x-rapidapi-key": config.news_api_key,
                         "x-rapidapi-host": "coronavirus-smartable.p.rapidapi.com"
 
                     },
