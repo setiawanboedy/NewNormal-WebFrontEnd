@@ -130,7 +130,7 @@ button:hover
     }
 
     .scrolled-up{
-        position: fixed;
+        /* position: fixed; */
         width: 100%;
         top: -1px;
         background: #ffffff;
@@ -138,4 +138,6 @@ button:hover
         z-index: 999;
         transform:translateY(0); transition: all 0.3s ease-in-out;
      }
+
+     
 }

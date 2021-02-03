@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 body{
-    background-image: url(../image/bg-landing.png);
+    background-image: url(../image/bg-right-top.png), url(../image/bg-mid-top.png), 
+    url(../image/bg-top-left.png), url(../image/bg-right-midd.png);
     background-repeat: no-repeat;
-    background-size: 100% 50rem;
-    background-position: 0 10px;
-    background-position-x: center;
-    background-position-y: 0rem;
+    background-size:47vh, 3vh, 18vh, 20vh;
+    background-position: right top -2rem, center 8rem,
+    left 12rem top 6.5rem, left 0rem top 39rem;
     display: inline;
     position: relative;
 }
@@ -423,9 +423,19 @@ footer textarea{
         flex-direction: row;
         height: 49px;
     }
-    @media only screen and (max-width: 340px){
+    @media only screen and (max-width: 440px){
         .site-main .subscribe-us-area .subscribe form .input-textbox input{
             width: 15rem    !important;
+        }
+        body{
+            background-image: url(../image/bg-right-top.png), url(../image/bg-mid-top.png), 
+            none, url(../image/bg-right-midd.png);
+            background-repeat: no-repeat;
+            background-size:47vh, 3vh, 18vh, 13vh;
+            background-position: right top -2rem, left 4rem top 5rem,
+            left 12rem top 6.5rem, left 0rem top 39rem;
+            display: inline;
+            position: relative;
         }
     }
 

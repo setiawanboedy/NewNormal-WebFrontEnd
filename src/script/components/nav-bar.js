@@ -79,7 +79,7 @@ class NavBar extends HTMLElement {
         /* mobile breakpoint start */
         @media screen and (max-width: 767px) {
             .navbar-area {
-                background: white;
+                background: transparent;
             }
             .container {
                 max-width: 95%;
