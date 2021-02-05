@@ -27,6 +27,7 @@ import "./image/jalan-jalan.png";
 import "./image/joging.png";
 import "./image/stayhome.png";
 import "./image/blank-image.png";
+import "./image/preloader.gif";
 
 // plugin
 import "./style/bootstrap.min.css";
