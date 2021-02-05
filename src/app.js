@@ -10,14 +10,14 @@ import "./script/components/footer-section.js";
 // image
 import "./image/icon.png";
 import "./image/Logo.png";
-import "./image/landing.svg";
+import "./image/landing.png";
 import "./image/bg-mid-top.png";
 import "./image/bg-right-midd.png";
 import "./image/bg-right-top.png";
 import "./image/bg-top-left.png";
 import "./image/ring1.png";
 import "./image/ring2.png";
-import "./image/imageArtikel.svg";
+import "./image/imageArtikel.png";
 import "./image/bg-artikel.png";
 import "./image/subrek.png";
 import "./image/footer.png";
@@ -26,6 +26,7 @@ import "./image/distance.png";
 import "./image/jalan-jalan.png";
 import "./image/joging.png";
 import "./image/stayhome.png";
+import "./image/blank-image.png";
 
 // plugin
 import "./style/bootstrap.min.css";

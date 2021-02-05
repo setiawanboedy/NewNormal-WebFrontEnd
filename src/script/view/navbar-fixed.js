@@ -42,7 +42,9 @@ function navbarFixed() {
             nav_offset_top = scroll;
         });
     }
-    
+    $(window).load(function() {
+        $('.preloader').fadeOut('slow');
+     });
 
 }
 

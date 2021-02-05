@@ -18,9 +18,12 @@ class LandingSection extends HTMLElement {
                         <div class="space-20"></div>
                         <div class="site-buttons">
                             <div class="d-flex flex-row flex-wrap">
-                                <button type="button" class="btn button primary-button mr-4 text-uppercase">NEWS
+                                <button type="button" href="#news" class="btn button primary-button mr-4 text-uppercase">
+                                News
                                     </button>
-                                <button type="button" class="btn button secondary-button text-uppercase">Tips</button>
+                                <button type="button" href="#tips" class="btn button secondary-button text-uppercase">
+                                Tips
+                                </button>
                             </div>
                         </div>
                     </div>

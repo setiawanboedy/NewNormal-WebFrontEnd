@@ -53,14 +53,17 @@ html, main, body{
 
 .button.primary-button:hover{
     background: whitesmoke;
+    text-decoration: none;
     background-clip: padding-box;
     color: black;
 }
+
 
 .button.primary-button::after, .button.secondary-button::after{
     position: absolute;
     top: -2px; left: -2px;
     bottom: -2px;  right: -2px;
+    text-decoration: none;
     background: var(--gradient-color);
     content: ' ';
     z-index: -1;
