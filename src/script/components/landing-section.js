@@ -28,7 +28,7 @@ class LandingSection extends HTMLElement {
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="./image/landing.svg" alt="banner-img" class="img-fluid">
+                        <img src="./image/landing.png" alt="banner-img" class="img-fluid">
                     </div>
                 </div>
             </div>
